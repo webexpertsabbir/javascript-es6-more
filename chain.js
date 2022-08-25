@@ -34,6 +34,9 @@ const user = {
     }
 }
 
-const userFlor = user.address.street.flor;
+// const userFlor = user.address.street.flor;
+
+// ?? optional changing
+const userFlor = user.address?.street?.flor;
 
 console.log(userFlor);
