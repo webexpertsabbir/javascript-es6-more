@@ -14,3 +14,7 @@ const math = student.marks.math;
 console.log(math)
 const camestry = student['marks']['camestry'];
 console.log(camestry);
+
+const subject = 'physis';
+const subjectMarks = student.marks[subject];
+console.log(subjectMarks);
